@@ -1,0 +1,13 @@
+{
+  "name": "simple-todos",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "bugsnag-js": "^4.6.0",
+    "bugsnag-react": "^1.1.1",
+    "meteor-node-stubs": "^0.3.2"
+  }
+}
