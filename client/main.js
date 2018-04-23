@@ -1,7 +1,10 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import bugsnag from 'bugsnag-js'
-const bugsnagClient = bugsnag('33cf7f73bd4995905ad84290bd54df25')
+const bugsnagClient = bugsnag({
+  apiKey: '33cf7f73bd4995905ad84290bd54df25',
+  appVersion: "1.2.3"
+});
 // handled error wich reports to bugsnag.
 bugsnagClient.notify("heyo!!!!!");
 
